@@ -11,8 +11,6 @@ use db_mart;
 -- menampilkan tabel
 show tables;
 
-DROP TABLE IF EXISTS produk;
-
 -- membuat tabel
 CREATE TABLE produk (
     kode_produk   VARCHAR(10)    NOT NULL PRIMARY KEY,
