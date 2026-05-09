@@ -5,8 +5,6 @@
 -- menampilkan list database
 SHOW databases;
 
-DROP DATABASE IF EXISTS db_mart;
-
 -- membuat database
 CREATE DATABASE db_mart;
 
