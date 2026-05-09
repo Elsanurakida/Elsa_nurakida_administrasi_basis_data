@@ -3,12 +3,10 @@
 -- Kelas : B
 
 Show databases;
-drop database if exists db_mart;
 create database db_mart;
 use db_mart;
 
 show tables;
-DROP TABLE IF EXISTS penjualan;
 CREATE TABLE penjualan (
     kode_urut_transaksi INT            NOT NULL PRIMARY KEY,
     kode_transaksi      VARCHAR(10)    NOT NULL,
